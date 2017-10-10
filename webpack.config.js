@@ -5,10 +5,6 @@ module.exports = {
 		path: __dirname + "/compiled/js",
 		filename: "bundle.js"
 	},
-	node: {
-  fs: 'empty',
-	child_process: 'empty'
-	},
   module: {
       loaders: [
           {
